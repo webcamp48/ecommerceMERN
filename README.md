@@ -6,22 +6,22 @@ This is a e-commerce website built using the MERN stack (MongoDB, Express.js, Re
 
 <h2>Features</h2>
 
-Implemented authentication using JWT.
-Created roles for users (admin and customer)
+1) Implemented authentication using JWT. <br>
+2) Created roles for users (admin and customer)
 
 
 <h2>Database Models </h2>
 
-User: name, email, password, role, createdAt <br>
-Product: name, description, price, category, stock, createdAt  <br>
+1) User: name, email, password, role, createdAt <br>
+2) Product: name, description, price, category, stock, createdAt  <br>
 
 <h2> API Endpoints</h2>
 
-User Registration and Login: Users can register and log in. <br>
-CRUD Operations for Products (Admin only): Admins can create, read, update, and delete products. <br>
-Add Product to Cart: Users can add products to their cart in Database. <br>
-Remove Product from Cart: Users can remove products from their cart. <br>
-For Product API : Collection Product,Category Select API, Related Product And Popular Product API. <br>
+1) User Registration and Login: Users can register and log in. <br>
+2) CRUD Operations for Products (Admin only): Admins can create, read, update, and delete products. <br>
+3) Add Product to Cart: Users can add products to their cart in Database. <br>
+4) Remove Product from Cart: Users can remove products from their cart. <br>
+5) For Product API : Collection Product,Category Select API, Related Product And Popular Product API. <br>
 
 
 
@@ -29,44 +29,43 @@ For Product API : Collection Product,Category Select API, Related Product And Po
 
 <h3> User Interface</h3>
 
-Created a user-friendly UI using React. <br>
-Implemented routing using React Router. <br>
-Used a state management library (Context API). <br>
+1) Created a user-friendly UI using React. <br>
+2) Implemented routing using React Router. <br>
+3) Used a state management library (Context API). <br>
 
 <h3>Pages and Components </h3>
 
-Home: Display a list of all products, Slider, and Popular Product. <br>
-Product Details: Show details of a selected product . <br>
-Cart: Display products added to the cart. <br>
-Checkout: --------------. <br>
-Login and Registration Forms: Allow users to register and log in only valid email. <br>
-Navbar: Display the navbar with links to different pages. <br>
+1) Home: Display a list of all products, Slider, and Popular Product. <br>
+2) Product Details: Show details of a selected product . <br>
+3) Cart: Display products added to the cart. <br>
+4) Checkout: --------------. <br>
+5) Login and Registration Forms: Allow users to register and log in only valid email. <br>
+6) Navbar: Display the navbar with links to different pages. <br>
 
 
 <h3> Form Validation </h3>
-Implemented client-side form validation for user input. <br>
-Name field only accepts letters. <br>
-Email and password fields have specific validation rules and email not accept special char. <br>
-Implemented login with Google and Facebook (using Third Party). <br>
+1) Implemented client-side form validation for user input. <br>
+2) Name field only accepts letters. <br>
+3) Email and password fields have specific validation rules and email not accept special char. <br>
+4) Implemented login with Google and Facebook (using Third Party). <br>
 
 <h1>Bonus Features</h1>
-Implemented a search bar to search for products. <br>
-Implemented a filter to filter products by category. <br>
-Implemented a pagination to display products in pages. <br>
-
-Implemented OTP-based authentication and email sending for OTP then verify . <br>
+1) Implemented a search bar to search for products. <br>
+2) Implemented a filter to filter products by category. <br>
+3) Implemented a pagination to display products in pages. <br>
+4) Implemented OTP-based authentication and email sending for OTP then verify . <br>
 
 
 <h2> Third-Party Integrations </h2>
-Used Email.js for sending OTP emails from the frontend for verify. <br>
-and use auth0 for login with facebook and google <br>
+1) Used Email.js for sending OTP emails from the frontend for verify. <br>
+2) and use auth0 for login with facebook and google <br>
 
 <h2>Note :</h2> The backend will run on npm run dev port 5173, the frontend on port 5174, and the admin panel on port 3000. <br>
 
 <h1>Getting Started <h1>
 <h3>Prerequisites</h3>
-Node.js  <br>
-MongoDB
+i) Node.js  <br>
+ii) MongoDB
 
 <h1> Installation </h1>
 
