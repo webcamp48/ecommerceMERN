@@ -1,0 +1,72 @@
+.billing_shipping {
+    width: 86%;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .billing_shipping_header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 7px;
+    border-radius: 4px;
+    background: radial-gradient(100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100%);
+  }
+  
+  .billing_shipping_header h1 {
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .billing_shipping_header h1 span {
+    margin-right: 10px;
+    font-size: 35px;
+    color: #fff;
+  }
+  
+  .billing_shipping_details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .billing_shipping_name {
+    margin-bottom: 15px;
+  }
+  
+  .billing_shipping_name label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .billing_shipping_name input,
+  .billing_shipping_name textarea,
+  .billing_shipping_name select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .billing_shipping_name textarea {
+    resize: vertical;
+  }
+  
+  .billing_shipping_btn {
+    text-align: center;
+  }
+  
+  .billing_shipping_btn .btn {
+    padding: 10px 20px;
+    width: 60%;
+    font-size: 20px;
+
+  }

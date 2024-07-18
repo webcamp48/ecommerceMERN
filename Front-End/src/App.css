@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+
+body{
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+.btn {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+    border: 1.3px solid #fff;
+    cursor: pointer;
+    background-color: transparent;
+   }
+   
+   .btn:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+
+
+
+
+   .section-title {
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  .section-title h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    background: #e7f1fd;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+  }
+  
+  .section-title h3 {
+    margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .section-title p span {
+    color: #106eea;
+  }
+  
+  .section-title p {
+    margin: 15px auto 0 auto;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  .product-not-found {
+    text-align: center;
+    font-size: 1.5em;
+    color: red;
+    padding: 20px;
+    margin: 50px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: #ffe6e6;
+  }
+  .error{
+    position: relative;
+    bottom: 10px;
+    color: red;
+  }

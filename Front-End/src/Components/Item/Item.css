@@ -1,0 +1,52 @@
+
+.item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  max-width: 380px;
+  transition: transform 0.5s;
+}
+
+.item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+  transition: all 0.5s ease;
+}
+
+.item p {
+  margin: 5px 0;
+  letter-spacing: 1px;
+  color: #333;
+  cursor: pointer;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.item h5 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #106eea;
+}
+
+.item-prices {
+  display: flex;
+  gap: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.item-price-new {
+  color: #106eea;
+}
+
+.item-price-old {
+  color: #8c8c8c;
+  text-decoration: line-through;
+}

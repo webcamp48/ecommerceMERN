@@ -1,0 +1,33 @@
+.breadcrum {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: #333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .breadcrum svg {
+    margin: 0 5px;
+  }
+  
+  .breadcrum a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .breadcrum a:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrum .active {
+    color: #555;
+    pointer-events: none;
+    cursor: default;
+  }
+  .greater-icon{
+    color: #007bff;
+  }

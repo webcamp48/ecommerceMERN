@@ -1,0 +1,104 @@
+.listProduct {
+    width: 100%;
+    max-width: 920px;
+    margin: 40px auto;
+    overflow-x: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+  }
+  
+  .listTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    table-layout: auto;
+  }
+  .listProduct h1{
+    color: #5468ff;
+    text-align: center;
+  }
+  .listTable th{
+    color: #5468ff;
+  }
+  .listTable th, 
+  .listTable td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .listTable th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+  }
+  
+  .listTable td img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+  }
+  .listTable .btn{
+    padding: 5px 12px;
+    border-radius: 10px;
+  }
+  
+  .listTable tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .listTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  @media (max-width: 900px) {
+    .listProduct{
+        margin: 10px 20px;
+    }
+    .listTable th, 
+    .listTable td {
+      padding: 8px;
+      font-size: 0.9rem;
+    }
+  
+    .listTable td img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .listTable {
+      font-size: 0.8rem;
+    }
+  
+    .listTable th, 
+    .listTable td {
+      padding: 6px;
+    }
+  
+    .listTable td img {
+      width: 35px;
+      height: 35px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .listTable {
+      font-size: 0.7rem;
+    }
+  
+    .listTable th, 
+    .listTable td {
+      padding: 4px;
+    }
+  
+    .listTable td img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  
